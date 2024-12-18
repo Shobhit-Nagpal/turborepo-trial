@@ -1,5 +1,8 @@
 import express, { Express } from "express";
 import dotenv from "dotenv";
+import { BACKEND_URL } from "@repo/common/config";
+
+console.log(BACKEND_URL);
 
 dotenv.config();
 
